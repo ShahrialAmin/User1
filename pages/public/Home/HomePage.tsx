@@ -92,7 +92,7 @@ const DownloadAppBanner = memo(() => {
 
 DownloadAppBanner.displayName = 'DownloadAppBanner';
 
-export const HomePage: React.FC = () => {
+const HomePage: React.FC = () => {
   const navigate = useNavigate();
 
   // Scroll to top on mount

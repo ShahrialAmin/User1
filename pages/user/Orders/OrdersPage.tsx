@@ -68,7 +68,7 @@ const mockOrders = [
   }
 ];
 
-export const OrdersPage: React.FC = () => {
+const OrdersPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState('All');
   const [currentPage, setCurrentPage] = useState(1);
   const [copiedState, setCopiedState] = useState<string | null>(null);
@@ -394,3 +394,5 @@ export const OrdersPage: React.FC = () => {
     </div>
   );
 };
+
+export default OrdersPage;

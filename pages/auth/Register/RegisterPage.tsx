@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { UserPlus } from 'lucide-react';
 import { RegisterForm } from '../../../features/auth/components';
 
-export const RegisterPage: React.FC = () => {
+const RegisterPage: React.FC = () => {
   return (
     <div className="max-w-md mx-auto px-4 py-8">
       {/* Header */}
@@ -27,3 +27,5 @@ export const RegisterPage: React.FC = () => {
     </div>
   );
 };
+
+export default RegisterPage;

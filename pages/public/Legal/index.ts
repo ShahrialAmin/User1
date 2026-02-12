@@ -1,5 +1,5 @@
-export * from './TermsPage';
-export * from './PrivacyPage';
-export * from './RefundPolicyPage';
-export * from './CookiePolicyPage';
-export * from './ShipmentPolicyPage';
+export { default } from './TermsPage';
+export { default } from './PrivacyPage';
+export { default } from './RefundPolicyPage';
+export { default } from './CookiePolicyPage';
+export { default } from './ShipmentPolicyPage';

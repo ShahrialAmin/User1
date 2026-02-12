@@ -1,7 +1,7 @@
 import React from 'react';
 import { Truck, Zap, Clock, AlertTriangle } from 'lucide-react';
 
-export const ShipmentPolicyPage: React.FC = () => {
+const ShipmentPolicyPage: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="text-center mb-10">
@@ -71,3 +71,5 @@ export const ShipmentPolicyPage: React.FC = () => {
     </div>
   );
 };
+
+export default ShipmentPolicyPage;

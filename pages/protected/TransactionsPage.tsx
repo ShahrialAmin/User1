@@ -80,7 +80,7 @@ const mockOrders = [
   }
 ];
 
-export const TransactionsPage: React.FC = () => {
+const TransactionsPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState('All');
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedTrx, setSelectedTrx] = useState<any>(null);
@@ -545,3 +545,5 @@ export const TransactionsPage: React.FC = () => {
     </div>
   );
 };
+
+export default TransactionsPage;

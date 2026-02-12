@@ -43,7 +43,7 @@ const getPackages = (title: string) => {
   }
 };
 
-export const ProductDetailsPage: React.FC = () => {
+const ProductDetailsPage: React.FC = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
@@ -738,3 +738,5 @@ export const ProductDetailsPage: React.FC = () => {
     </div>
   );
 };
+
+export default ProductDetailsPage;

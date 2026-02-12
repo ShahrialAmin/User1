@@ -4,7 +4,7 @@ import { Trash2, Minus, Plus, ShoppingCart, ArrowRight, ArrowLeft, ShieldCheck, 
 import { useCartStore } from '../../../store/useCartStore';
 import { useAuthStore } from '../../../store/useAuthStore';
 
-export const CartPage: React.FC = () => {
+const CartPage: React.FC = () => {
   const navigate = useNavigate();
   const { items, removeItem, updateQuantity, getTotalPrice } = useCartStore();
   const { isLoggedIn } = useAuthStore();
@@ -172,3 +172,5 @@ export const CartPage: React.FC = () => {
     </div>
   );
 };
+
+export default CartPage;

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { ShieldCheck } from 'lucide-react';
 import { ResetPasswordForm } from '../../../features/auth/components';
 
-export const ResetPasswordPage: React.FC = () => {
+const ResetPasswordPage: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -24,3 +24,5 @@ export const ResetPasswordPage: React.FC = () => {
     </div>
   );
 };
+
+export default ResetPasswordPage;

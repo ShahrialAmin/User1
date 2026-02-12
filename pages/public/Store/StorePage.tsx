@@ -5,7 +5,7 @@ import { categories } from '../../../data';
 import { Product, Category } from '../../../types';
 import { ProductGrid, ProductFilters } from '../../../features/catalog/components';
 
-export const StorePage: React.FC = () => {
+const StorePage: React.FC = () => {
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState('all');
@@ -234,3 +234,5 @@ export const StorePage: React.FC = () => {
     </div>
   );
 };
+
+export default StorePage;

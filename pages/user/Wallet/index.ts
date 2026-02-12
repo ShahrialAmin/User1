@@ -1,1 +1,1 @@
-export * from './AddMoneyPage';
+export { default } from './AddMoneyPage';

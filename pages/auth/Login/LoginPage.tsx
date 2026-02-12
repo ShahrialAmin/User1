@@ -4,7 +4,7 @@ import { LogIn } from 'lucide-react';
 import { LoginForm } from '../../../features/auth/components';
 import { useAuthStore } from '../../../store/useAuthStore';
 
-export const LoginPage: React.FC = () => {
+const LoginPage: React.FC = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const { login } = useAuthStore();
@@ -50,3 +50,5 @@ export const LoginPage: React.FC = () => {
     </div>
   );
 };
+
+export default LoginPage;

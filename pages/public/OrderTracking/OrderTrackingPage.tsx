@@ -46,7 +46,7 @@ const mockOrders = [
   }
 ];
 
-export const OrderTrackingPage: React.FC = () => {
+const OrderTrackingPage: React.FC = () => {
   const navigate = useNavigate();
   const [orderId, setOrderId] = useState('');
   const [orderData, setOrderData] = useState<any>(null);
@@ -298,3 +298,5 @@ export const OrderTrackingPage: React.FC = () => {
     </div>
   );
 };
+
+export default OrderTrackingPage;

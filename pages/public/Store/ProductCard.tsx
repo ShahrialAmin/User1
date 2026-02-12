@@ -7,7 +7,7 @@ interface Props {
   onClick: (product: Product) => void;
 }
 
-export const ProductCard: React.FC<Props> = ({ product, onClick }) => {
+const ProductCard: React.FC<Props> = ({ product, onClick }) => {
   return (
     <div 
       onClick={() => onClick(product)}
@@ -48,3 +48,5 @@ export const ProductCard: React.FC<Props> = ({ product, onClick }) => {
     </div>
   );
 };
+
+export default ProductCard;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { RefreshCcw, AlertCircle, CheckCircle2, XCircle } from 'lucide-react';
 
-export const RefundPolicyPage: React.FC = () => {
+const RefundPolicyPage: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="text-center mb-10">
@@ -78,3 +78,5 @@ export const RefundPolicyPage: React.FC = () => {
     </div>
   );
 };
+
+export default RefundPolicyPage;

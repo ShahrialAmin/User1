@@ -30,7 +30,7 @@ import {
 } from 'lucide-react';
 import { useAuthStore, User } from '../../../store/useAuthStore';
 
-export const ProfilePage: React.FC = () => {
+const ProfilePage: React.FC = () => {
   const navigate = useNavigate();
   const { user, balance, logout, updateUser } = useAuthStore();
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -583,3 +583,5 @@ const MenuCard = ({
         </div>
     </button>
 );
+
+export default ProfilePage;

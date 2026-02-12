@@ -1,7 +1,7 @@
 import React from 'react';
 import { MapPin, Clock, Headset, ArrowRight } from 'lucide-react';
 
-export const ContactPage: React.FC = () => {
+const ContactPage: React.FC = () => {
   const contactMethods = [
     {
       id: 'whatsapp',
@@ -101,3 +101,5 @@ export const ContactPage: React.FC = () => {
     </div>
   );
 };
+
+export default ContactPage;

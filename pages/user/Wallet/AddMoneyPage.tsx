@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Wallet, ArrowRight, AlertCircle, PlayCircle, ShieldCheck, Banknote, History } from 'lucide-react';
 import { useAuthStore } from '../../../store/useAuthStore';
 
-export const AddMoneyPage: React.FC = () => {
+const AddMoneyPage: React.FC = () => {
   const [amount, setAmount] = useState('');
   const { updateBalance } = useAuthStore();
   
@@ -145,3 +145,5 @@ export const AddMoneyPage: React.FC = () => {
     </div>
   );
 };
+
+export default AddMoneyPage;

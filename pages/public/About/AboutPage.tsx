@@ -1,7 +1,7 @@
 import React from 'react';
 import { Target, Users, Award, Info } from 'lucide-react';
 
-export const AboutPage: React.FC = () => {
+const AboutPage: React.FC = () => {
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Header */}
@@ -91,3 +91,5 @@ export const AboutPage: React.FC = () => {
     </div>
   );
 };
+
+export default AboutPage;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FileText, ShieldCheck } from 'lucide-react';
 
-export const TermsPage: React.FC = () => {
+const TermsPage: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="text-center mb-10">
@@ -63,3 +63,5 @@ export const TermsPage: React.FC = () => {
     </div>
   );
 };
+
+export default TermsPage;

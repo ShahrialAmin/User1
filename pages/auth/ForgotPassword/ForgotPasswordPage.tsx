@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import { KeyRound } from 'lucide-react';
 import { ForgotPasswordForm } from '../../../features/auth/components';
+export default ForgotPasswordPage;
 
-export const ForgotPasswordPage: React.FC = () => {
+const ForgotPasswordPage: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

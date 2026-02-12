@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Plus, Minus, HelpCircle } from 'lucide-react';
 
-export const FAQPage: React.FC = () => {
+const FAQPage: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const faqs = [
@@ -75,3 +75,5 @@ export const FAQPage: React.FC = () => {
     </div>
   );
 };
+
+export default FAQPage;

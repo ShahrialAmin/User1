@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { KeyRound } from 'lucide-react';
 import { ForgotPasswordForm } from '../../../features/auth/components';
-export default ForgotPasswordPage;
 
 const ForgotPasswordPage: React.FC = () => {
   useEffect(() => {
@@ -25,3 +24,5 @@ const ForgotPasswordPage: React.FC = () => {
     </div>
   );
 };
+
+export default ForgotPasswordPage;

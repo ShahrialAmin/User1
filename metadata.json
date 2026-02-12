@@ -1,0 +1,7 @@
+{
+  "name": "User Panel RIYAL Games - Game Services Platform",
+  "description": "Enterprise-grade digital services platform for game top-ups, vouchers, and app credits.",
+  "requestFramePermissions": [
+    "clipboard-read"
+  ]
+}
